@@ -13,3 +13,10 @@ Generate initial directory
 
 # References:
 [Wrangler Documentation](https://developers.cloudflare.com/workers/tooling/wrangler).
+npx degit sveltejs/template svelte-app
+cd svelte-app/
+npm install
+npm run build
+npm run dev
+vi package.json 
+changed sirv public to have --single option
